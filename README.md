@@ -5,7 +5,7 @@ An AI-powered dream interpretation application that analyzes dreams and provides
 ## Features
 
 - 🌙 **Dream Journal**: Record and store your dreams with detailed descriptions
-- ✨ **AI-Powered Analysis**: Get comprehensive interpretations using OpenAI GPT-4
+- ✨ **AI-Powered Analysis**: Get comprehensive interpretations using OpenAI GPT-5 Mini
 - 🔮 **Symbol Extraction**: Identify key symbols and their meanings
 - 😊 **Emotion Tracking**: Tag dreams with emotions you experienced
 - 📊 **Pattern Recognition**: Analyze recurring themes across multiple dreams
@@ -17,7 +17,7 @@ An AI-powered dream interpretation application that analyzes dreams and provides
 
 ### Backend
 - **FastAPI**: Modern Python web framework
-- **OpenAI API**: GPT-4 for dream analysis
+- **OpenAI API**: GPT-5 Mini for dream analysis
 - **PostgreSQL**: Database for storing dreams
 - **SQLAlchemy**: ORM for database operations
 
