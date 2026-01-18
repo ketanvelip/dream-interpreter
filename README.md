@@ -220,13 +220,15 @@ dream-interpreter/
 
 ## OpenAI API Usage
 
-This application uses the OpenAI Chat Completions API. Key features:
+This application uses the OpenAI Responses API. Key features:
 
-- **Model**: GPT-4 (`gpt-4o`)
+- **Model**: GPT-5 Mini (`gpt-5-mini`)
 - **Temperature**: 0.7 for creative yet coherent interpretations
+- **Instructions-based**: Uses system instructions for consistent behavior
 - **JSON Mode**: Used for structured symbol extraction
 - **Context Management**: Maintains conversation history for follow-up questions
-- **Specialized Prompts**: Tailored for dream analysis and symbolic interpretation
+- **Response Storage**: Responses are stored for potential future analysis
+- **Specialized Instructions**: Tailored for dream analysis and symbolic interpretation
 
 ## Troubleshooting
 
