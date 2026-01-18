@@ -199,7 +199,7 @@ dream-interpreter/
 1. **User Input**: User submits dream description and emotions
 2. **API Request**: Frontend sends POST request to `/dreams` endpoint
 3. **OpenAI Processing**: 
-   - Backend calls OpenAI GPT-4 with specialized prompts
+   - Backend calls OpenAI GPT-5 Mini with specialized instructions
    - Generates comprehensive interpretation
    - Extracts key symbols and their meanings
 4. **Database Storage**: Dream and analysis saved to PostgreSQL
@@ -215,7 +215,7 @@ dream-interpreter/
 
 1. **Context Loading**: Retrieves dream details and interpretation
 2. **Conversation History**: Loads previous chat messages for context
-3. **AI Response**: GPT-4 generates personalized answers based on dream context
+3. **AI Response**: GPT-5 Mini generates personalized answers based on dream context
 4. **Storage**: All messages saved to database for future reference
 
 ## OpenAI API Usage
@@ -223,12 +223,12 @@ dream-interpreter/
 This application uses the OpenAI Responses API. Key features:
 
 - **Model**: GPT-5 Mini (`gpt-5-mini`)
-- **Temperature**: 0.7 for creative yet coherent interpretations
 - **Instructions-based**: Uses system instructions for consistent behavior
 - **JSON Mode**: Used for structured symbol extraction
 - **Context Management**: Maintains conversation history for follow-up questions
 - **Response Storage**: Responses are stored for potential future analysis
 - **Specialized Instructions**: Tailored for dream analysis and symbolic interpretation
+- **Cost Efficient**: GPT-5 Mini provides faster responses at lower cost
 
 ## Troubleshooting
 
